@@ -10,6 +10,7 @@ const GlobalStyles = createGlobalStyle`
   }
   html {
     font-size: 10px;
+    background-color: #50DAB0;
   }
 
   body {
@@ -43,13 +44,13 @@ const GlobalStyles = createGlobalStyle`
   }
   html {
     scrollbar-width: thin;
-    scrollbar-color: var(--red) var(--white);
+    scrollbar-color: var(--white) var(--white);
   }
   body::-webkit-scrollbar-track {
     background: var(--white);
   }
   body::-webkit-scrollbar-thumb {
-    background-color: var(--red) ;
+    background-color: var(--white) ;
     border-radius: 6px;
     border: 3px solid var(--white);
   }
