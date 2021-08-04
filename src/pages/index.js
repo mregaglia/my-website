@@ -19,16 +19,16 @@ const Container = styled.div`
 
 const IndexPage = () => {
   return (
-  <>
-  <GlobalStyles/>
-  <Typography/>
-  <BurgerMenu />
-    <Container>
-      <div className="headerTitle">
-      <h1>Massimo</h1>
-      <h1>Regaglia</h1>
-      </div>
-    </Container>
+    <>
+      <GlobalStyles/>
+      <Typography/>
+      <BurgerMenu />
+        <Container>
+          <div className="headerTitle">
+            <h1>Massimo</h1>
+            <h1>Regaglia</h1>
+          </div>
+        </Container>
     </>
   )
 }

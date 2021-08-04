@@ -18,17 +18,18 @@ const Burger = styled.div`
   span {
     display: block;
     position: absolute;
-    height: 2px;
+    height: 10px;
     width: 100%;
     background: white;
     border-radius: 9px;
     opacity: 1;
     left: 0;
     transform: rotate(0deg);
-    transition: 0.25s ease-in-out;
+    transition:  0.25s ease-in-out;
   }
   span:nth-child(1) {
     top: 0px;
+    width: 45%;
   }
   span:nth-child(2),
   span:nth-child(3) {
@@ -36,6 +37,18 @@ const Burger = styled.div`
   }
   span:nth-child(4) {
     top: 50px;
+    width: 65%;
+    right: 0;
+    left: initial;
+  }
+
+  #nav-icon1:hover {
+    span:nth-child(1) {
+      width: 100%;
+    }
+    span:nth-child(4) {
+      width: 100%;
+    }
   }
 
   #nav-icon1.open span:nth-child(1) {
@@ -55,7 +68,7 @@ const Burger = styled.div`
   #nav-icon1.open span:nth-child(4) {
     top: 25px;
     width: 0%;
-    left: 50%;
+    right: 50%;
   }
 `;
 
