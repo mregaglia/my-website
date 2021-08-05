@@ -3,13 +3,14 @@ import styled from 'styled-components';
 
 const Burger = styled.div`
   position: absolute;
+  z-index: 999;
   padding-top: -4px;
   left: 50%;
   top: 35px;
   #nav-icon1 {
     left: -50%;
     width: 80px;
-    height: 50px;
+    height: 60px;
     position: relative;
     transform: rotate(0deg);
     transition: 0.5s ease-in-out;
@@ -25,7 +26,7 @@ const Burger = styled.div`
     opacity: 1;
     left: 0;
     transform: rotate(0deg);
-    transition:  0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
   }
   span:nth-child(1) {
     top: 0px;
@@ -81,7 +82,6 @@ const Burger = styled.div`
       >
         <div id="nav-icon1"
         className={(toggleBurger && "open") || null}
-
         >
           <span />
           <span />

@@ -15,6 +15,7 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     font-size: 2rem;
+    color: var(--white);
   }
 
   button {
